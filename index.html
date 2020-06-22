@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+
+    <header>
+        <p>BMI Calculator</p><span class="reload">&#8635;</span>
+    </header>
+
+    <table id="calculatorbody">
+        <tr>
+            <td>Height</td>
+            <td><input type="text" id="height">
+                <select name="" id="heightFormat">
+                <option value="inch">inch</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Weight</td>
+            <td><input type="text" id="weight">
+                <select name="" id="weightFormat">
+                    <option value="pound">pound</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="calculate()">Calculate BMI</button></td>
+        </tr>
+    </table>
+
+    <div id="result">
+        <table>
+            <tr>
+                <td>Result</td>
+                <td id="showResult"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="chart">
+        
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+    user-select: none;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: #fff;
+}
+
+header p {
+    text-align: center;
+    font-size: 30px;
+}
+
+header span {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: bold;
+}
+
+#calculatorbody {
+    margin: auto;
+    padding: 15px;
+}
+
+td {
+    padding: 15px 0px;
+    font-size: 22px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 50%;
+    padding: 15px;
+    font-size: 22px;
+    background: transparent;
+}
+
+input:focus {
+    border-bottom: 2px solid #4CAF50;
+    outline: 0;
+}
+
+button {
+    font-size: 20px;
+    background-color: #fff;
+    padding: 3px 7px;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+}
+
+button:focus {
+    outline: 0;
+}
+
+select {
+    font-size: 20px;
+    padding: 3px;
+    border: 0px;
+    cursor: pointer;
+    background: transparent;
+}
+
+select:focus {
+    outline: 0;
+}
+
+option {
+    border: none;
+    outline: 0;
+}
+
+#result {
+    background-color: #4CAF50;
+    padding: 15px 0px;
+    display: none;
+}
+
+#result table {
+    margin: auto;
+}
+
+#result table td {
+    padding: 0px 50px;
+    color: #fff;
+}
+
+#chart {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 25px;
+       
+}
+
+#chart p {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.chartitem {
+    width: 50%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 650px) {
+    .chartitem {
+        width: 80%;
+    }
+}
